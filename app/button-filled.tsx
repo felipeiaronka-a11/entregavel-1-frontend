@@ -1,9 +1,9 @@
-export default function Button(props) {
+export default function ButtonFilled(props) {
   return <button style={{
     // backgroundColor: 'white',
-    border: '2px solid blue',
+    backgroundColor: 'blue',
     borderRadius: '10px',
-    color:'blue',
+    color:'white',
     width:'90%',
     height:'50px',
     padding:'10px'

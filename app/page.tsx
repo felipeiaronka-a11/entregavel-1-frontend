@@ -2,6 +2,7 @@ import link from 'next/link';
 import Button from './button';
 import ButtonFilled from './button-filled';
 import PostCard from './postcard';
+import PersonalDataForm from './personaldataform';
 export default function HomePage() {
   return (
     <div>
@@ -41,16 +42,18 @@ export default function HomePage() {
           display:"flex",
           flexDirection:"column",
           margin:"0"
-        }}>
-        <h1 style={{
-          fontSize:'50px'
-        }}>Title here</h1>
-        <p>Description here</p>
-        </div>
-        <div>
-        <PostCard></PostCard>
-        
-        </div>
-        </div>
+      }}>
+    <h1 style={{
+    fontSize:'50px'
+    }}>Title here</h1>
+    <p>Description here</p>
+    </div>
+    <div>
+    <PostCard></PostCard>
+    </div>
+    <div>
+    <PersonalDataForm></PersonalDataForm>
+    </div>
+  </div>
   );
 }

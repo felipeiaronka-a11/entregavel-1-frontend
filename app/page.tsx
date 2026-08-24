@@ -1,8 +1,8 @@
 import link from 'next/link';
-import Button from './button';
-import ButtonFilled from './button-filled';
-import PostCard from './postcard';
-import PersonalDataForm from './personaldataform';
+import Button from './Button';
+import ButtonFilled from './ButtonFilled';
+import PostCard from './PostCard';
+import PersonalDataForm from './PersonalDataForm';
 export default function HomePage() {
   return (
     

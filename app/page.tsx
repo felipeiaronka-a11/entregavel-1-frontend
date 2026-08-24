@@ -5,6 +5,7 @@ import PostCard from './postcard';
 import PersonalDataForm from './personaldataform';
 export default function HomePage() {
   return (
+    
     <div>
     <div style={{display: 'flex', flexDirection: 'column', gap: '8px' }}>
       <input placeholder="CELULAR" style={{

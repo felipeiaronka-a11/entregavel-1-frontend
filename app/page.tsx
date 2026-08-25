@@ -1,8 +1,8 @@
 import link from 'next/link';
-import Button from './Button';
-import ButtonFilled from './ButtonFilled';
-import PostCard from './PostCard';
-import PersonalDataForm from './PersonalDataForm';
+import Button from './complementos/Button';
+import ButtonFilled from './complementos/ButtonFilled';
+import PostCard from './complementos/PostCard';
+import PersonalDataForm from './complementos/PersonalDataForm';
 export default function HomePage() {
   return (
     
@@ -31,10 +31,6 @@ export default function HomePage() {
         <h3 style={{
         color:'purple',
         }}>Recuperar agora</h3>
-        
-        
-        
-
   </div>
   
   </div>
